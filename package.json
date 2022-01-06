@@ -1,0 +1,15 @@
+{
+  "name": "@winning-ipt/ipt-utils",
+  "version": "1.0.0",
+  "description": "住院相关工具",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.4.4",
+    "vue": "^3.2.20"
+  }
+}
