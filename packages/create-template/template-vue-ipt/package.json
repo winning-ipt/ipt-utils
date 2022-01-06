@@ -1,0 +1,30 @@
+{
+  "name": "template-vue-ipt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && npm run build:lib --no-clean",
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --mode lib"
+  },
+  "dependencies": {
+    "@winning-plugin/win-ipt-qiankun-utils": "@latest",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@winning-plugin/portal-login-plugin": "^1.1.4",
+    "@winning-plugin/webpack-filelist-export": "^1.0.6",
+    "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^6.1.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.45.2",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

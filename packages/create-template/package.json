@@ -1,0 +1,22 @@
+{
+  "name": "@winning-ipt/create-template",
+  "version": "1.0.1",
+  "description": "模板库",
+  "main": "index.js",
+  "bin": {
+    "create-template": "index.js"
+  },
+  "files": [
+    "template-*",
+    "index.js",
+    "utils.js"
+  ],
+
+  "author": "周运徽",
+  "license": "ISC",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2"
+  }
+}
